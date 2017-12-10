@@ -115,4 +115,15 @@ requires webpack configuration to load css files
  ]
 }
 
+
+
+3. Mockjs
+
+https://github.com/nuysoft/Mock/wiki/Getting-Started
+
+http://mockjs.com/examples.html
+
+
+cnpm install mockjs --save
+
 ```

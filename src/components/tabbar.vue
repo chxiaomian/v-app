@@ -10,15 +10,15 @@
       </i>
       <!-- <v-con name='appreciate'></v-con> -->
     </v-tab-bar-item>
-    <v-tab-bar-item to="/list" label="List">
+    <v-tab-bar-item to="/pages/list" label="List">
       <i class="fa fa-list">
       </i>
     </v-tab-bar-item>
-    <v-tab-bar-item to="/account" label="Account">
+    <v-tab-bar-item to="/pages/account" label="Account">
       <i class="fa fa-user">
       </i>
     </v-tab-bar-item>
-    <v-tab-bar-item to="/config" label="Config">
+    <v-tab-bar-item to="/pages/config" label="Config">
       <i class="fa fa-bars">
       </i>
     </v-tab-bar-item>
@@ -30,11 +30,9 @@
 </template>
 
 <script>
-import Icon from 'vue-awesome/components/Icon'
 export default {
   name: 'tabbar',
   components: {
-    Icon
   }
 }
 </script>
