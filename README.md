@@ -69,6 +69,12 @@ cnpm install vue-awesome --save
 
 cnpm install fontawesome --save
 
+
+cnpm i vant -S
+https://www.youzanyun.com/zanui/vant#/zh-CN/component/quickstart
+
+
+
 ```
 
 
@@ -125,5 +131,11 @@ http://mockjs.com/examples.html
 
 
 cnpm install mockjs --save
+
+
+
+
+4. 添加过渡动画
+
 
 ```

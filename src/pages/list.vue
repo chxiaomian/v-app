@@ -9,6 +9,7 @@
                 <img :src='use.avatar' class="img-circle">
               </span>
               <span class="name">{{use.name}}</span>
+              <span class="name">{{use.name}}</span>
             </li>
           </ul>
         </div>
@@ -86,4 +87,16 @@ span.avatar{
 .img-circle{
     border-radius:500px
   }
+ .list-group{
+    margin-bottom: 15px;
+  }
+  .list-group-item{
+    text-align: left;
+    border:none;
+    padding: 0 10px;
+  }
+.name{
+  display: block;
+  padding: 2px 15px 3px 60px;
+}
 </style>
