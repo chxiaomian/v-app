@@ -17,9 +17,19 @@ import 'font-awesome/css/font-awesome.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+import Vant from 'vant'
+import 'vant/lib/vant-css/index.css'
+
+import api from './mock/axios'
+// import axios from 'axios'
+
+require('./mock/mockapi.js')
+
+Vue.use(Vant)
 Vue.use(VTabBar)
 Vue.config.productionTip = false
 
+Vue.prototype.$http = api
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

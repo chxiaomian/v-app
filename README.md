@@ -138,4 +138,12 @@ cnpm install mockjs --save
 4. 添加过渡动画
 
 
+5. Vant UI
+
+swiper
+
+6. axios
+
+拦截器
+
 ```
