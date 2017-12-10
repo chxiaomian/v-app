@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <Vcon name="add"></Vcon>
+    <!-- <img src="./assets/logo.png"> -->
+    <!-- <Vcon name="add"></Vcon> -->
     <router-view/>
     <v-tabbar></v-tabbar>
   </div>

@@ -34,7 +34,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 Reference:
 https://segmentfault.com/a/1190000008473744
 
-
 https://github.com/Justineo/vue-awesome
 
 
@@ -68,6 +67,8 @@ npm uninstall vue-svg-icon
 cnpm install vue-awesome --save
 
 
+cnpm install fontawesome --save
+
 ```
 
 
@@ -77,8 +78,41 @@ cnpm install vue-awesome --save
 
 tabbar
 
+cnpm i --save v-tab-bar
 
 ```
 
 
 
+
+
+
+
+```
+遇到的问题?
+
+1.  怎么在vue-cli的组件模板里使用font-awesome
+
+https://segmentfault.com/q/1010000009795785
+
+npm install font-awesome
+在main.js里添加
+import 'font-awesome/css/font-awesome.css'
+
+
+
+2.  引入 BootStrap vue
+
+cnpm install bootstrap-vue --save
+cnpm install bootstrap --save
+requires webpack configuration to load css files
+
+{
+ test: /\.css$/,
+ loader: [
+   'style-loader',
+   'css-loader'
+ ]
+}
+
+```
