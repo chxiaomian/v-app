@@ -150,8 +150,32 @@ swiper
 
 
 Todo
-- [ ] 首屏加载动画 
+- [ ] 首屏加载动画
 - [ ] 页面切换动画
 - [ ] loading 动画
-- [ ] 列表页下拉刷新 上拉加载 
+- [ ] 列表页下拉刷新 上拉加载
 - [X] Todo app
+
+
+
+```
+一个很奇怪的bug
+
+直接npm start 报错:
+Module build failed: Unknown word (5:1)
+
+切换到一个可以编译成功的版本
+
+
+在切换回最新的版本就能解决了
+
+css-loader  style-loader的问题
+
+在main.js 中import css 就会这样
+
+具体什么原因 不清楚....
+....
+
+
+
+```
